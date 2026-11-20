@@ -8,7 +8,7 @@
 
 ## 1. Problem Statement
 
-During real-world physical testing of the OMR Scanner, two interrelated issues were observed when the user pressed **Capture OMR Sheet**:
+During real world physical testing of the OMR Scanner, two interrelated issues were observed when the user pressed **Capture OMR Sheet**:
 
 1. **False "Multiple Marked ('M')" Detections**: The application frequently detected questions as multiple-marked (`'M'`) even when only one bubble was filled, or when bubbles were completely blank.
 2. **Post-Click Hand Shake / Movement**: When pressing the on-screen capture button, the physical touch mechanically jarred the phone. Because of standard camera sensor shutter latency, the camera took the picture a few hundred milliseconds *after* the tap—capturing a shifted, motion-blurred image.
