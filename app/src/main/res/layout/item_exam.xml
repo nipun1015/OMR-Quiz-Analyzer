@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#1E1E1E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvExamTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Exam Name"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvActiveBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACTIVE"
+                android:textColor="#00E676"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:background="#2200E676"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvExamMarking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Correct: +1.0  |  Negative: -0.25"
+            android:textColor="#B0BEC5"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvExamKeySummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Key: A B C D A B C D A B C D A B C"
+            android:textColor="#FFB74D"
+            android:textSize="12sp"
+            android:fontFamily="monospace" />
+
+        <!-- Actions -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSetActive"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="Set Active"
+                android:textSize="11sp"
+                android:backgroundTint="#2C2C2C"
+                android:textColor="#FFFFFF"
+                android:padding="0dp" />
+
+            <Button
+                android:id="@+id/btnEditExam"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:text="Edit Key"
+                android:textSize="11sp"
+                android:backgroundTint="#1976D2"
+                android:textColor="#FFFFFF"
+                android:padding="0dp" />
+
+            <Button
+                android:id="@+id/btnDeleteExam"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:text="Delete"
+                android:textSize="11sp"
+                android:backgroundTint="#D32F2F"
+                android:textColor="#FFFFFF"
+                android:padding="0dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

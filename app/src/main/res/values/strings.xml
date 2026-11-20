@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OMRScanner</string>
+    <string name="contour_result">Thresholding and contour detection successful!\n\nWidth: %1$d\nHeight: %2$d\nChannels: %3$d\nWhite pixels: %4$d\nBlack pixels: %5$d\nContours detected: %6$d</string>
+    <string name="threshold_result">Thresholding successful!\n\nWidth: %1$d\nHeight: %2$d\nChannels: %3$d\nWhite pixels: %4$d\nBlack pixels: %5$d</string>
+</resources>
