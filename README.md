@@ -65,4 +65,3 @@ For specific fixes regarding camera performance, see:
 [CAMERA_FREEZE_AND_MULTIPLE_DETECTION_FIX.md](./CAMERA_FREEZE_AND_MULTIPLE_DETECTION_FIX.md)
 
 ---
-*Developed by Arman*
